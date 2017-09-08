@@ -45,6 +45,26 @@ body
 	font-family: $default-font
 	overflow-x: hidden
 	opacity: 1
+	background-image: url("../img/money.png")
+	background-attachment:fixed
+	background-size: cover
+	background-attachment: fixed
+	font-family: 'Open Sans Condensed', sans-serif
+p
+	font-size: 18px
+	font-family: 'Arimo', sans-serif
+h3
+	@extend p 
+	text-align: center
+	color: #5f646a
+h2
+	font-family: 'Arimo', sans-serif
+	color: #3b3f45
+	text-align: center
+	background-color: #f89f00
+
+.centro
+	text-align: center
 
 .logo
 	width: 300px
@@ -52,10 +72,97 @@ body
 	margin: auto
 	img
 		width: 300px
+.flogo 
+	width: 200px
+	margin-top: 20px
+	margin: auto
+	img
+		width: 200px
+		padding: 15px
+		margin-top: 20px
 
 .img-responsive
 	display: block
 	max-width: 100%
 	height: auto
+
+.header
+	background-color: #FFF
+	padding-bottom: 15px
+	padding-top: 10px
+	border-bottom: 20px solid #f9b250
+
+.left
+	text-align: center
+	margin-top: 15px
+	color: #6d6400
+
+address
+	font-size: 25px
+	display: inline
+	font-style: normal
+	margin-left: 5px
+
+.addr
+	font-size: 18px
+	display: inline
+	font-style: normal
+	margin-left: 5px
+	text-align: center
+.addrf
+	margin: auto
+	display: block
+
+.right
+	text-align: center
+	margin-top: 10px
+	color: #6d6400
+.rightf
+	text-align: center
+	margin-top: 40px
+	color: #6d6400
+.tel
+	font-size: 25px
+	margin-left: 5px
+	a
+		color: #6d6400
+.telf
+	@extend .tel
+	font-size: 20px;
+.mapmap
+	margin: auto
+	width: 1150px
+
+.foot
+	background-color: #FFF
+	min-height: 60px
+.cont
+	background-color: #FFF
+	min-height: 100px
+	padding: 20px
+	h1
+		text-align: center
+		color: #6d6400
+		font-family: 'Arimo', sans-serif
+
+.item
+	.fa
+		color: #529c4a
+		display: block
+		margin: auto
+		text-align: center
+	h4
+		font-family: 'Arimo', sans-serif
+		font-size: 25px
+		text-align: center
+	p
+		text-align: center
+	margin: 5px
+	background-color: #f7e1d3
+	height: 342px
+
+.row-flex 
+    display: flex
+    flex-flow: row wrap
 
 @import "media" // Всегда в конце
